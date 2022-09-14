@@ -119,8 +119,14 @@ body{
 
 
 
+.row{
+  display: flex;
+  align-items: center;
+}
 
-
+.row input{
+  width: 100%;
+}
  /*Portfolio Section*/
   
  #portfolio{
@@ -154,6 +160,7 @@ body{
   background-color: black;
   color: white;
   padding: 20px;
+  align-items: center;
 }
 .form{
   display: flex;
@@ -178,9 +185,9 @@ body{
   outline: none;
 }
 #send{
-  padding: 10px;
+  padding: 70px;
   margin: 10px;
-  width: 40px;
+  width: 10px;
   border: none;
   outline: none;
 }

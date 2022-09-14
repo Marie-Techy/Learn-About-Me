@@ -47,30 +47,43 @@
     <section id=" portfolio">
       <h1 class="headings">PORTFOLIO</h1>
       <div class="gallery">
-        <img src="Portfolio/digital-marketing-meeting.jpg" alt=" " />
-        <img src="Portfolio/online-reputation-management.jpg" alt=" " />
+        <img src="./assets/images/caculator.jpeg" alt="Caculator" />
+        <img src="./assets/images/Calander.jpeg" alt="Calander " />
+        <img src="./assets/images/Led Wall.jpeg" alt="Led Wall " />
+        <img src="./assets/images/Tic Tac Toe.png" alt="Tic Tac Toe " />
       </div>
     </section>
 
     <section id="contact">
-      <h1 class="heading">CONTACT ME</h1>
+      <h1 class="headings">CONTACT ME</h1>
       <form action="" class="form">
-        <input
-          type="text"
-          name="name"
-          class="input"
-          placeholder="Enter Your Name"
-        />
-        <input type="email" name="email" class="input" />
-        <textarea
-          name="msg"
-          id="msg"
-          cols="30"
-          rows="10"
-          placeholder="Enter Your Message"
-        >
-        </textarea>
-        <input type="submit" name="Send" id="send" />
+        <div class="row">
+          <label for="name">Enter Name</label>
+          <input
+            type="text"
+            name="name"
+            class="input"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+        </div>
+        <div class="row">
+          <label for="email">Enter Email</label>
+          <input type="email" name="email" class="input" />
+        </div>
+
+        <div class="row">
+          <label for="msg">Enter Message</label>
+          <textarea
+            name="msg"
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Enter Your Message"
+          >
+          </textarea>
+        </div>
+        <button type="submit" name="Send" id="send">Send</button>
       </form>
     </section>
   </body>
